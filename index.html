@@ -11,29 +11,189 @@
 <body>
     <div class="container-fluid-md text-center">
         <div class="container bg-info my-5">
-        <h1>INTRODUCTING ME</h1>
+        <h1>INTRODUCING ME</h1>
         <h3 class="display-3">Christiana Inioluwa Adisa</h3>
+    </div>
+    <!--
+        <ul class="nav nav-tabs justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="true" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button">About Us</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">dropdown 1</a></li>
+                <li><a class="dropdown-item" href="#">dropdown 2</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Community</a>
+        </li>        
+    </ul>
+    -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-light navbar-light">
+        <div class="container-md">
+        <a class="navbar-brand" href="#"><img width="80rem" src="images/Make_up___Cosmetic_Store_Logo_Kit-removebg-preview.png" alt="logo"></a>
+        <!--hamburger button-->
+        <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#navLinks" ><span class="navbar-toggler-icon"></span></button>
+        <div id="navLinks" class="collapse navbar-collapse " >
+            
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Community</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#link">Friends</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                
+            </ul>
+            
+            <form class="d-flex ms-auto">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+    
+        
         </div>
+        </div>
+    </nav>
+    
+<div class="carousel slide carousel-fade" id="slider" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+            <button data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#slider" data-bs-slide-to="1"></button>
+            <button data-bs-target="#slider" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="//unsplash.it/1800/600" alt="random pics" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>First Slide</h4>
+                <p>A random image pops up every single time</p>
+              </div>
+        </div>
+        <div class="carousel-item">
+            <img src="//unsplash.it/1800/601" alt="random pics" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Second Slide</h4>
+                <p>A random image pops up every single time</p>
+              </div>
+        </div>
+        <div class="carousel-item">
+            <img src="//unsplash.it/1800/602" alt="random pics" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Third Side</h4>
+                <p>A random image pops up every single time</p>
+              </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon "></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next">
+        <span class="carousel-control-next-icon "></span>
+    </button>
+</div>
    
-    <div class="container-fluid row mt-4">
-        <div class="col"><img src="images/sky.jpg" class="img-fluid" alt="sky" >
+<div class="container-fluid row mt-4">
+    <div class="row">
+        <div class="col-md">
+            <div class="card">
+                <img src="images/sky.jpg" alt="sky" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">If you didn't know, I like reading</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quaerat minus tempore repellendus cum quod nulla commodi fugiat tempora, dolorum illum nobis exercitationem id, repudiandae voluptates quae facere unde praesentium.
+                    Deserunt illo dolor sequi repudiandae enim natus magni. Cum dolores facere nam, quod repellat tempora vero non quos eos ab omnis. Non ea voluptatum dignissimos repellendus id consectetur neque nemo?
+                    Consectetur officia ex velit hic quas, aspernatur omnis fugiat consequuntur dolores, non ipsam accusamus quo veniam quibusdam vero minima ipsum ducimus. Perspiciatis placeat consequuntur temporibus quam. Fugit repudiandae quos sit.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias quod a labore quaerat distinctio illum modi nulla illo quidem? Aliquid maxime fugiat deserunt esse corrupti voluptatibus omnis a natus.
+                    Esse eaque ipsam, voluptates aliquam odio animi, doloremque molestiae labore cum, quod quo pariatur illo earum officiis ex tempore modi. Ab quas cumque animi reiciendis architecto. Nisi quos possimus odio.</p>
+                    <button class="btn btn-dark">Press</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card">
+                <img src="images/smore.jpg" alt="sky" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">If you didn't know, I like s'more</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias quod a labore quaerat distinctio illum modi nulla illo quidem? Aliquid maxime fugiat deserunt esse corrupti voluptatibus omnis a natus.
+                    Esse eaque ipsam, voluptates aliquam odio animi, doloremque molestiae labore cum, quod quo pariatur illo earum officiis ex tempore modi. Ab quas cumque animi reiciendis architecto. Nisi quos possimus odio.</p>
+                    <button class="btn btn-dark">Press</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md ">
+            <div class="card">
+                <img src="images/cookie-dough-delirium.png" alt="sky" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-center mt-4">If you didn't know, I like s'more</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quaerat minus tempore repellendus cum quod nulla commodi fugiat tempora, dolorum illum nobis exercitationem id, repudiandae voluptates quae facere unde praesentium.
+                    Deserunt illo dolor sequi repudiandae enim natus magni. Cum dolores facere nam, quod repellat tempora vero non quos eos ab omnis. Non ea voluptatum dignissimos repellendus id consectetur neque nemo?
+                    Consectetur officia ex velit hic quas, aspernatur omnis fugiat consequuntur dolores, non ipsam accusamus quo veniam quibusdam vero minima ipsum ducimus. Perspiciatis placeat consequuntur temporibus quam. Fugit repudiandae quos sit. </p>
+                    <button class="btn btn-dark">Press</button>
+                </div>
+            </div>
+        </div>
+        <!--<div class="col"><img src="images/sky.jpg" class="img-fluid" alt="sky" >
         <p class="text-center mt-4">If you didn't know, I like reading</p>
         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quaerat minus tempore repellendus cum quod nulla commodi fugiat tempora, dolorum illum nobis exercitationem id, repudiandae voluptates quae facere unde praesentium.
         Deserunt illo dolor sequi repudiandae enim natus magni. Cum dolores facere nam, quod repellat tempora vero non quos eos ab omnis. Non ea voluptatum dignissimos repellendus id consectetur neque nemo?
         Consectetur officia ex velit hic quas, aspernatur omnis fugiat consequuntur dolores, non ipsam accusamus quo veniam quibusdam vero minima ipsum ducimus. Perspiciatis placeat consequuntur temporibus quam. Fugit repudiandae quos sit.</p></div>
-        
-        <div class="col"><img src="images/smore.jpg" alt="s'more" width="50%" class="img-fluid rounded mx-auto d-block">
-        <p class="text-center mt-4">If you didn't know, I like s'more</p>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ad eum officia iure excepturi praesentium minus esse eaque harum neque rem, expedita quasi quia cupiditate possimus tempore hic nemo corporis.
-        A molestias voluptatibus, doloremque velit obcaecati recusandae! Hic vero sed est non excepturi adipisci cumque impedit, ab quo, tempore rerum, fuga fugiat quasi? Aperiam totam accusamus officia voluptates ullam beatae.
-        Maxime reprehenderit et illo, quibusdam corrupti repellat nesciunt distinctio earum necessitatibus ullam unde ut ducimus labore suscipit vel ratione saepe ea maiores sint, fuga dolores inventore eum exercitationem? Minima, iusto!</p></div>
-        
-        <div class="col"><img src="images/cookie-dough-delirium.png" class="img-fluid">
-        <p class="text-center mt-4">If you didn't know, I like Cake</p>
-        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptate illo tempore quaerat! Perspiciatis libero eligendi vero possimus ex, impedit non iure tempora. Nostrum natus blanditiis tenetur facere ex voluptatem.
-        Quod fugiat temporibus ea laborum, rem id soluta nulla tempore voluptatibus eius dicta. Dolorum ipsum labore harum nihil, perspiciatis numquam tempore praesentium temporibus saepe possimus dolor debitis optio quo maxime!
-        Vitae, voluptate fugiat vel officiis suscipit unde similique exercitationem. Nostrum tempora magnam exercitationem a nulla sit dicta facere, ab quas possimus quo cumque vel iusto perspiciatis unde, non accusantium dolorem.</p></div>
+        -->
     </div>
 </div>
+
+<!--<div class="mt-2 container d-grid gap-2">
+    <button class="btn btn-outline-primary" >Button 1</button>
+    <button>Button 2</button>
+    <button class="btn btn-outline-danger">Button 3</button>
+    <button>Button 4</button>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sequi soluta numquam, totam a repellendus recusandae cumque fuga nemo deleniti ipsum quo saepe impedit et? Aspernatur rem eum voluptate laboriosam!
+    Maiores beatae accusantium dolor tempore quod. Consectetur, reprehenderit quia asperiores maiores consequatur delectus aut aperiam rerum facere optio illo eum! Quos, nesciunt harum fuga aperiam id cumque quasi cupiditate nam?
+    Dolore soluta, qui nulla praesentium alias possimus explicabo maiores architecto commodi iusto ullam eaque hic eum ut odio! Saepe voluptatum quas sint porro dolore eos iusto magni tenetur enim. Veniam.
+</div>
+-->
+<div class="container-fluid-lg">
+<div class="row mt-4" id="link">
+    <h3 class="text-center bg-dark text-light my-5">Friends</h3>
+    <div class="col-md">
+        <div class="card">
+            <img src="images/b9.jpg" alt="sky" class="card-img-top">
+            <div class="card-body">
+                <h3 class="card-title">Toluwanimi LOL</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias quod a labore quaerat distinctio illum modi nulla illo quidem? Aliquid maxime fugiat deserunt esse corrupti voluptatibus omnis a natus.
+                Esse eaque ipsam, voluptates aliquam odio animi, doloremque molestiae labore cum, quod quo pariatur illo earum officiis ex tempore modi. Ab quas cumque animi reiciendis architecto. Nisi quos possimus odio.</p>
+                <button class="btn btn-dark">Press</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md">
+        <div class="card">
+            <img src="images/jodie-walton-Vvx4kbkubtI-unsplash.jpg" alt="sky" class="card-img-top">
+            <div class="card-body">
+                <h3 class="card-title">Enioluwa</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias quod a labore quaerat distinctio illum modi nulla illo quidem? Aliquid maxime fugiat deserunt esse corrupti voluptatibus omnis a natus.
+                Esse eaque ipsam, voluptates aliquam odio animi, doloremque molestiae labore cum, quod quo pariatur illo earum officiis ex tempore modi. Ab quas cumque animi reiciendis architecto. Nisi quos possimus odio.</p>
+                <button class="btn btn-primary">Press</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md">
+        <div class="card">
+            <img src="images/b9.jpg" alt="sky" class="card-img-top">
+            <div class="card-body">
+                <h3 class="card-title">Ifeoluwa LOL</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias quod a labore quaerat distinctio illum modi nulla illo quidem? Aliquid maxime fugiat deserunt esse corrupti voluptatibus omnis a natus.
+                Esse eaque ipsam, voluptates aliquam odio animi, doloremque molestiae labore cum, quod quo pariatur illo earum officiis ex tempore modi. Ab quas cumque animi reiciendis architecto. Nisi quos possimus odio.</p>
+                <button class="btn btn-dark">Press</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
